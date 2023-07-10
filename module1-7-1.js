@@ -27,7 +27,7 @@ if (health !== null) {
 
 if (health <= 0) {
     alert('Параметр "здоровье" должен быть больше нуля!');
-} else if (isNaN(healthTotal)) { 
+} else if (isNaN(healthTotal)) {
     alert('Параметр "здоровье" должен быть ЧИСЛОМ больше нуля!');
 } else {
     alert(`Параметр "здоровье" равен ${health}`);
